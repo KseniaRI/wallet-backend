@@ -2,6 +2,10 @@ const express = require('express')
 const logger = require('morgan')
 const cors = require('cors')
 
+// NEvlkPqwRSqFJgFZ
+// Ksenia
+// mongodb+srv://Ksenia:NEvlkPqwRSqFJgFZ@cluster0.xbsrtyb.mongodb.net/test
+
 const contactsRouter = require('./routes/api/contacts')
 
 const app = express()

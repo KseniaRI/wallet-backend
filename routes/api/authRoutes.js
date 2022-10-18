@@ -1,5 +1,5 @@
 const express = require('express');
-const { authMiddleware, validation, ctrlWrapper } = require('../../middlewares/index');
+const { authMiddleware, validation, ctrlWrapper } = require('../../middlewares');
 const { authCtrl: ctrl } = require('../../controllers');
 const { signupJoiSchema, loginJoiSchema} = require('../../models/userModel');
 

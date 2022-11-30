@@ -1,9 +1,9 @@
-const contactsCtrl = require('./contactsCtrl');
+const transactionsCtrl = require('./transactionsCtrl');
 const authCtrl = require('./authCtrl');
 const usersCtrl = require('./usersCtrl');
 
 module.exports = {
-    contactsCtrl,
+    transactionsCtrl,
     authCtrl,
     usersCtrl
 };

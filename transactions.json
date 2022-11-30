@@ -1,0 +1,101 @@
+[
+     {
+       
+        "date": "24.11.2022",
+        "type": false,
+        "category": "Education",
+        "comment": "Spanish course",
+        "amount": 40.00,
+        "balance": 1650.00
+    },
+    {
+        
+        "date": "24.11.2022",
+        "type": false,
+        "category": "Laisure",
+        "comment": "Movie rent",
+        "amount": 10.00,
+        "balance": 1690.00
+    },
+       {
+       
+        "date": "24.11.2022",
+        "type": false,
+        "category": "The rest",
+        "comment": "Friend's birthday",
+        "amount": 50.00,
+        "balance": 1700.00
+    },
+     {
+        
+        "date": "23.11.2022",
+        "type": false,
+        "category": "Main",
+        "comment": "Dentist",
+        "amount": 100.00,
+        "balance": 1750.00
+    },
+     {
+        
+        "date": "22.11.2022",
+        "type": false,
+        "category": "Education",
+        "comment": "English course",
+        "amount": 100.00,
+        "balance": 1850.00
+    },
+        {
+       
+        "date": "21.11.2022",
+        "type": true,
+        "category": "Bonus",
+        "comment": "Monthly bonus",
+        "amount": 1000.00,
+        "balance": 1950.00
+    },
+        {
+        
+        "date": "05.11.2022",
+        "type": false,
+        "category": "Food",
+        "comment": "Chinese restaurant",
+        "amount": 150.00,
+        "balance": 950.00
+    },
+        {
+        
+        "date": "05.11.2022",
+        "type": false,
+        "category": "Car",
+        "comment": "Bumper repair",
+        "amount": 400.00,
+        "balance": 1100.00
+    },
+        {
+        
+        "date": "10.11.2022",
+        "type": false,
+        "category": "Laisure",
+        "comment": "Vacation",
+        "amount": 200.00,
+        "balance": 1500.00
+    },
+        {
+        
+        "date": "04.11.2022",
+        "type": false,
+        "category": "Home",
+        "comment": "Furniture",
+        "amount": 300.00,
+        "balance": 1700.00
+    },
+    {
+        
+        "date": "01.11.2022",
+        "type": true,
+        "category": "Salary",
+        "comment": "Salary",
+        "amount": 2000.00,
+        "balance": 2000.00
+    }
+]

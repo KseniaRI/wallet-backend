@@ -6,8 +6,7 @@ const Joi = require('joi').extend(require('@joi/date'));;
 const transactionSchema = Schema({
     category: {
       type: String,
-      enum: ["Laisure", "Main", "Food", "Education", "Salary", "Home", "Car", "Children", "The rest"],
-      required: true,
+      enum: ["Laisure", "Main", "Food", "Education", "Salary", "Home", "Car", "Children", "The rest"]
     },
     amount: {
       type: Number,
@@ -36,7 +35,7 @@ const transactionSchema = Schema({
 const Transaction = model("transaction", transactionSchema);
   
 const transactionJoiSchema = Joi.object({
-            category: Joi.string().required(),
+            category: Joi.string(),
             amount: Joi.number().positive().required(),
             comment: Joi.string(),
             type: Joi.bool().required(),

@@ -4,7 +4,6 @@ const addTransaction = async (req, res, next) => {
   const { _id, balance } = req.user;
   const { type, amount } = req.body;
   let balanceCalc = balance;
-  console.log(balance);
   type ? balanceCalc += amount : balanceCalc -= amount;
 
 

@@ -1,5 +1,5 @@
 const getCurrent = async (req, res, next) => {
-    const { email, name, balance} = req.user;
+    const { email, name, balance, avatarURL} = req.user;
     res.json({
         status: "success",
         code: 200,
@@ -7,7 +7,8 @@ const getCurrent = async (req, res, next) => {
             user: {
                 email,
                 name,
-                balance
+                balance,
+                avatarURL
             }
         }
     })

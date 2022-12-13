@@ -1,7 +1,5 @@
 const { Schema, model } = require('mongoose');
-const Joi = require('joi').extend(require('@joi/date'));;
-
-// const moment = require('moment');
+const Joi = require('joi').extend(require('@joi/date'));
 
 const transactionSchema = Schema({
     category: {
@@ -14,9 +12,7 @@ const transactionSchema = Schema({
       required: true,
   },
     date: {
-      // type: Date,
       type: String,
-      // default: moment().format("DD.MM.YYYY"),
       required: true,
     },
     comment: {
@@ -44,7 +40,6 @@ const transactionJoiSchema = Joi.object({
             amount: Joi.number().positive(),
             comment: Joi.string(),
             type: Joi.bool(),
-            // date: Joi.date().format(['DD.MM.YYYY']).required(),
             date: Joi.string(),
 });
 
